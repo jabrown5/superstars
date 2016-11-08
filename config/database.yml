@@ -4,3 +4,17 @@ default:
   username: sinatra
   password: cats
   host: localhost
+
+development:
+  adapter: mysql2
+  database: superstars
+  username: sinatra
+  password: cats
+  host: localhost
+
+production:
+  adapter: mysql2
+  database: superstars
+  username: sinatra
+  password: cats
+  host: localhost

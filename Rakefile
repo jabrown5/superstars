@@ -1,5 +1,6 @@
+require 'zlib'
 require 'sinatra/activerecord'
-require 'sinatra/activerecore/rake'
+require 'sinatra/activerecord/rake'
 
 ActiveRecord::Base.establish_connection(
   # allows our tasks to have access to the DB

@@ -42,6 +42,7 @@ class SuperstarController < ApplicationController #superstar controller is inher
     @model.talent = @talent
     @model.outfit = @outfit
     @model.save
+
     @model.to_json
   end
 
